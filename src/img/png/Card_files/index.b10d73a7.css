@@ -50,7 +50,7 @@
   font-size: var(--font-size-4);
 }
 
-.body-1 .regular {
+.body1-regular {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -58,7 +58,7 @@
   font-size: var(--font-size-4);
 }
 
-.body-1 .SemiBold {
+.body1-SemiBold {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-semi-bold);
@@ -66,7 +66,7 @@
   font-size: var(--font-size-4);
 }
 
-.body-2 .regular, button {
+.body2-regular, button {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -74,7 +74,7 @@
   font-size: var(--font-size-5);
 }
 
-.body-2 .medium {
+.body2-medium {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-medium);
@@ -82,7 +82,7 @@
   font-size: var(--font-size-5);
 }
 
-.body-2 .regular-underlined, a {
+.body2-regular-underlined, a {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -90,7 +90,7 @@
   font-size: var(--font-size-5);
 }
 
-.body-3 .regular {
+.body3-regular, p {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -98,7 +98,7 @@
   font-size: var(--font-size-6);
 }
 
-.body-3 .light {
+.body3-light {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-light);
@@ -106,7 +106,7 @@
   font-size: var(--font-size-6);
 }
 
-.body-3 .SemiBold {
+.body3-SemiBold, bold {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-semi-bold);
@@ -220,23 +220,76 @@ button:disabled {
   padding: var(--layout-padding-small-vertical) var(--layout-padding-small-horizontal);
 }
 
-.zone-secondary button {
+button.secondary {
   background-color: var(--color-primary-0);
   color: var(--color-primary-900);
 }
 
-.zone-secondary button:hover {
+button.secondary:hover {
   background-color: var(--color-primary-500);
   color: var(--color-primary-900);
 }
 
-.zone-secondary button:disabled {
+button.secondary:disabled {
   background-color: var(--color-primary-100);
   color: var(--color-primary-200);
 }
 
-.zone-secondary .hvr {
+.secondary .hvr {
   background-color: var(--color-primary-500);
   color: var(--color-primary-900);
+}
+
+card {
+  padding: var(--layout-padding-small-vertical);
+  background-color: var(--color-primary-0);
+  border-radius: var(--border-radius-small);
+  box-shadow: 0 8px 10px #00000026;
+}
+
+card img {
+  aspect-ratio: 1;
+  max-width: 284px;
+  height: auto;
+}
+
+card content {
+  gap: var(--layout-gap-vertical);
+  flex-direction: column;
+  display: flex;
+}
+
+card .text p {
+  color: var(--color-primary-600);
+}
+
+card .informations {
+  display: flex;
+}
+
+card .info {
+  gap: var(--layout-padding-small-vertical);
+  max-width: fit-content;
+  display: flex;
+}
+
+card .CTAs {
+  display: flex;
+}
+
+card .CTAs .mainbtn {
+  display: block;
+}
+
+card .CTAs .favourite {
+  border: 1px solid var(--color-primary-500);
+  border-radius: 100%;
+  margin: 0;
+  padding-left: 8.25px;
+  padding-right: 8.25px;
+}
+
+card .CTAs .favourite img {
+  width: 16px;
 }
 /*# sourceMappingURL=index.b10d73a7.css.map */

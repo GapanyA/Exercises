@@ -1,0 +1,242 @@
+:root {
+  --font-family-base: "Montserrat", sans-serif;
+  --font-optical-sizing: auto;
+  --font-weight-regular: 300;
+  --font-weight-medium: 600;
+  --font-weight-semi-bold: 700;
+  --font-weight-bold: 800;
+  --font-weight-light: 100;
+  --font-style-normal: normal;
+  --font-style-medium: medium;
+  --font-style-semi-bold: SemiBold;
+  --font-style-light: light;
+  --font-size-1: 2rem;
+  --font-size-2: 1.75rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 1.25rem;
+  --font-size-5: 1rem;
+  --font-size-6: .875rem;
+}
+
+.heading-1 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-medium);
+  font-size: var(--font-size-1);
+}
+
+.heading-2 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-2);
+}
+
+.heading-3 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-3);
+}
+
+.heading-4 {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-4);
+}
+
+.body-1 .regular {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-4);
+}
+
+.body-1 .SemiBold {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-4);
+}
+
+.body-2 .regular, button {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-5);
+}
+
+.body-2 .medium {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-medium);
+  font-size: var(--font-size-5);
+}
+
+.body-2 .regular-underlined, a {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: underline;
+  font-size: var(--font-size-5);
+}
+
+.body-3 .regular {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  font-size: var(--font-size-6);
+}
+
+.body-3 .light {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-light);
+  font-style: var(--font-style-light);
+  font-size: var(--font-size-6);
+}
+
+.body-3 .SemiBold {
+  font-family: var(--font-family-base);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: var(--font-weight-semi-bold);
+  font-style: var(--font-style-semi-bold);
+  font-size: var(--font-size-6);
+}
+
+:root {
+  --color-primary-900: #000;
+  --color-primary-800: #343434;
+  --color-primary-600: #6c6f72;
+  --color-primary-500: #b4bbc0;
+  --color-primary-100: #bbb;
+  --color-primary-200: #eceeef;
+  --color-primary-50: #f5f5f5;
+  --color-primary-0: #fff;
+  --color-primary-900-70: #000000b3;
+  --color-primary-900-50: #00000080;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img, video {
+  display: block;
+}
+
+body {
+  margin: var(--layout-padding-default-vertical) var(--layout-padding-default-horizontal);
+}
+
+.zone-primary {
+  background-color: var(--color-primary-0);
+  align-items: center;
+  gap: var(--layout-gap-vertical);
+  margin-bottom: var(--layout-gap-vertical);
+  padding: var(--layout-padding-default-vertical) var(--layout-padding-default-horizontal);
+  flex-direction: column;
+  max-width: fit-content;
+  display: flex;
+}
+
+.zone-primary .default, .zone-primary .small {
+  flex-direction: row;
+  display: flex;
+}
+
+.zone-secondary {
+  align-items: center;
+  gap: var(--layout-gap-vertical);
+  padding: var(--layout-padding-default-vertical) var(--layout-padding-default-horizontal);
+  background-color: var(--color-primary-900);
+  flex-direction: column;
+  max-width: fit-content;
+  display: flex;
+}
+
+.zone-secondary .default, .zone-secondary .small {
+  flex-direction: row;
+  display: flex;
+}
+
+:root {
+  --layout-padding-default-horizontal: 20px;
+  --layout-padding-default-vertical: 16px;
+  --layout-padding-small-horizontal: 12px;
+  --layout-padding-small-vertical: 8px;
+  --layout-gap-vertical: 20px;
+  --layout-gap-horizontal: 17px;
+  --border-radius-default: 20px;
+  --border-radius-small: 12px;
+}
+
+button {
+  appearance: none;
+  border-radius: var(--border-radius-default);
+  padding: var(--layout-padding-default-vertical) var(--layout-padding-default-horizontal);
+  margin: 0px var(--layout-gap-horizontal);
+  background-color: var(--color-primary-900);
+  color: var(--color-primary-50);
+  border: none;
+  align-items: center;
+  display: flex;
+}
+
+button:hover {
+  background-color: var(--color-primary-800);
+  color: var(--color-primary-0);
+}
+
+button:disabled {
+  background-color: var(--color-primary-100);
+  color: var(--color-primary-50);
+  cursor: not-allowed;
+}
+
+.hvr {
+  background-color: var(--color-primary-800);
+  color: var(--color-primary-0);
+}
+
+.small button {
+  border-radius: var(--border-radius-small);
+  padding: var(--layout-padding-small-vertical) var(--layout-padding-small-horizontal);
+}
+
+.zone-secondary button {
+  background-color: var(--color-primary-0);
+  color: var(--color-primary-900);
+}
+
+.zone-secondary button:hover {
+  background-color: var(--color-primary-500);
+  color: var(--color-primary-900);
+}
+
+.zone-secondary button:disabled {
+  background-color: var(--color-primary-100);
+  color: var(--color-primary-200);
+}
+
+.zone-secondary .hvr {
+  background-color: var(--color-primary-500);
+  color: var(--color-primary-900);
+}
+/*# sourceMappingURL=index.b10d73a7.css.map */

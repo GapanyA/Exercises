@@ -45,21 +45,21 @@
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-4);
 }
-.body-1 .regular {
+.body1-regular {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
   font-style: var(--font-style-normal);
   font-size: var(--font-size-4);
 }
-.body-1 .SemiBold {
+.body1-SemiBold {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-4);
 }
-.body-2 .regular,
+.body2-regular,
 button {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
@@ -67,14 +67,14 @@ button {
   font-style: var(--font-style-normal);
   font-size: var(--font-size-5);
 }
-.body-2 .medium {
+.body2-medium {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-medium);
   font-style: var(--font-style-medium);
   font-size: var(--font-size-5);
 }
-.body-2 .regular-underlined,
+.body2-regular-underlined,
 a {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
@@ -82,21 +82,23 @@ a {
   font-style: underline;
   font-size: var(--font-size-5);
 }
-.body-3 .regular {
+.body3-regular,
+p {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
   font-style: var(--font-style-normal);
   font-size: var(--font-size-6);
 }
-.body-3 .light {
+.body3-light {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-light);
   font-style: var(--font-style-light);
   font-size: var(--font-size-6);
 }
-.body-3 .SemiBold {
+.body3-SemiBold,
+bold {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-semi-bold);

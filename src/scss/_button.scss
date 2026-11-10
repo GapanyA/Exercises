@@ -32,23 +32,22 @@ button {
       var(--layout-padding-small-horizontal);
   }
 }
-.zone-secondary {
-  button {
-    background-color: var(--color-primary-0);
-    color: var(--color-primary-900);
 
-    &:hover {
-      background-color: var(--color-primary-500);
-      color: var(--color-primary-900);
-    }
+button.secondary {
+  background-color: var(--color-primary-0);
+  color: var(--color-primary-900);
 
-    &:disabled {
-      background-color: var(--color-primary-100);
-      color: var(--color-primary-200);
-    }
-  }
-  .hvr {
+  &:hover {
     background-color: var(--color-primary-500);
     color: var(--color-primary-900);
   }
+
+  &:disabled {
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-200);
+  }
+}
+.secondary .hvr {
+  background-color: var(--color-primary-500);
+  color: var(--color-primary-900);
 }

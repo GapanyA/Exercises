@@ -67,7 +67,8 @@ button {
   font-style: var(--font-style-normal);
   font-size: var(--font-size-5);
 }
-.body2-medium {
+.body2-medium,
+label {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-medium);

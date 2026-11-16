@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <title>Filters</title>
+  </head>
+  <body>
+    <form>
+      <h2 class="heading-3" for="filter">Start booking your flight now</h2>
+      <input type="radio" id="one-way" name="flight-type" value="one-way" />
+      <label for="one-way">One Way</label>
+      <input
+        type="radio"
+        id="round-trip"
+        name="flight-type"
+        value="round-trip"
+      />
+      <label for="round-trip">Round Trip</label>
+      <include src="./input-filtre.html"></include>
+      <button type="submit" class="secondary">Search</button>
+    </form>
+  </body>
+</html>

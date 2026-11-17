@@ -23,6 +23,7 @@
   font-weight: var(--font-weight-medium);
   font-style: var(--font-style-medium);
   font-size: var(--font-size-1);
+  min-width: fit-content;
 }
 .heading-2 {
   font-family: var(--font-family-base);
@@ -30,6 +31,7 @@
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-2);
+  min-width: fit-content;
 }
 .heading-3 {
   font-family: var(--font-family-base);
@@ -37,6 +39,7 @@
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-3);
+  min-width: fit-content;
 }
 .heading-4 {
   font-family: var(--font-family-base);
@@ -44,6 +47,7 @@
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-4);
+  min-width: fit-content;
 }
 .body1-regular {
   font-family: var(--font-family-base);
@@ -51,6 +55,7 @@
   font-weight: var(--font-weight-regular);
   font-style: var(--font-style-normal);
   font-size: var(--font-size-4);
+  min-width: fit-content;
 }
 .body1-SemiBold {
   font-family: var(--font-family-base);
@@ -58,6 +63,7 @@
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-4);
+  min-width: fit-content;
 }
 .body2-regular,
 button {
@@ -66,6 +72,7 @@ button {
   font-weight: var(--font-weight-regular);
   font-style: var(--font-style-normal);
   font-size: var(--font-size-5);
+  min-width: fit-content;
 }
 .body2-medium,
 label {
@@ -74,6 +81,7 @@ label {
   font-weight: var(--font-weight-medium);
   font-style: var(--font-style-medium);
   font-size: var(--font-size-5);
+  min-width: fit-content;
 }
 .body2-regular-underlined,
 a {
@@ -82,6 +90,7 @@ a {
   font-weight: var(--font-weight-regular);
   font-style: underline;
   font-size: var(--font-size-5);
+  min-width: fit-content;
 }
 .body3-regular,
 p {
@@ -90,6 +99,7 @@ p {
   font-weight: var(--font-weight-regular);
   font-style: var(--font-style-normal);
   font-size: var(--font-size-6);
+  min-width: fit-content;
 }
 .body3-light {
   font-family: var(--font-family-base);
@@ -97,6 +107,7 @@ p {
   font-weight: var(--font-weight-light);
   font-style: var(--font-style-light);
   font-size: var(--font-size-6);
+  min-width: fit-content;
 }
 .body3-SemiBold,
 .bold {
@@ -105,4 +116,5 @@ p {
   font-weight: var(--font-weight-semi-bold);
   font-style: var(--font-style-semi-bold);
   font-size: var(--font-size-6);
+  min-width: fit-content;
 }

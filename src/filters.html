@@ -9,17 +9,84 @@
   <body>
     <form>
       <h2 class="heading-3" for="filter">Start booking your flight now</h2>
-      <input type="radio" id="one-way" name="flight-type" value="one-way" />
-      <label for="one-way">One Way</label>
-      <input
-        type="radio"
-        id="round-trip"
-        name="flight-type"
-        value="round-trip"
-      />
-      <label for="round-trip">Round Trip</label>
-      <include src="./input-filtre.html"></include>
-      <button type="submit" class="secondary">Search</button>
+      <div class="flights-options">
+        <div class="radio">
+          <div class="radio-item">
+            <input
+              type="radio"
+              id="one-way"
+              name="flight-type"
+              value="one-way"
+            />
+            <label for="one-way">One Way</label>
+          </div>
+          <div class="radio-item">
+            <input
+              type="radio"
+              id="round-trip"
+              name="flight-type"
+              value="round-trip"
+            />
+            <label for="round-trip">Round Trip</label>
+          </div>
+        </div>
+        <div class="Filters">
+          <div class="input small">
+            <div>
+              <p>From</p>
+              <p class="body2-medium">31 May 2027</p>
+            </div>
+            <img src="./img/svg/reload.svg" alt="reload" />
+            <div>
+              <p>To</p>
+              <p class="body2-medium">31 May 2027</p>
+            </div>
+          </div>
+          <div class="input">
+            <p>From</p>
+            <div class="dropdown">
+              <div class="iconNtext">
+                <img src="./img/svg/calendar.svg" alt="calendar" />
+                <p class="body2-medium">31 May 2027</p>
+              </div>
+              <img
+                src="./img/svg/arrow-down.svg"
+                alt="arrow-down"
+                class="arrow-down"
+              />
+            </div>
+          </div>
+          <div class="input">
+            <p>Until</p>
+            <div class="dropdown">
+              <div class="iconNtext">
+                <img src="./img/svg/calendar.svg" alt="calendar" />
+                <p class="body2-medium">15 June 2027</p>
+              </div>
+              <img
+                src="./img/svg/arrow-down.svg"
+                alt="arrow-down"
+                class="arrow-down"
+              />
+            </div>
+          </div>
+          <div class="input">
+            <p>Passengers</p>
+            <div class="dropdown">
+              <div class="iconNtext">
+                <img src="./img/svg/people.svg" alt="people" />
+                <p class="body2-medium">1</p>
+              </div>
+              <img
+                src="./img/svg/arrow-down.svg"
+                alt="arrow-down"
+                class="arrow-down"
+              />
+            </div>
+          </div>
+          <button type="submit" class="secondary">Search</button>
+        </div>
+      </div>
     </form>
   </body>
 </html>

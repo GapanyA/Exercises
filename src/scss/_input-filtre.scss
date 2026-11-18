@@ -5,9 +5,9 @@
   border-radius: var(--border-radius-small);
   color: var(--color-primary-0);
   padding: var(--layout-padding-small-vertical);
-  max-width: fit-content;
+  width: 100%;
   gap: var(--padding-mini);
-
+  text-wrap: nowrap;
   p {
     padding-right: var(--border-radius-default);
   }
@@ -16,16 +16,18 @@
     flex-direction: row;
     gap: var(--border-radius-large);
     align-items: center;
-    img {
+    svg {
       max-width: var(--layout-padding-default-vertical);
       padding: 2px;
       background-color: var(--color-primary-900);
       max-height: fit-content;
       border-radius: var(--border-radius-default);
+      fill: var(--color-primary-0);
     }
   }
-  img {
+  svg {
     max-width: var(--border-radius-default);
+    fill: var(--color-primary-0);
   }
   .arrow-down {
     max-width: var(--layout-padding-small-horizontal);

@@ -7,6 +7,11 @@ form {
   padding: var(--layout-padding-default-vertical)
     var(--layout-padding-default-horizontal);
   border-radius: var(--border-radius-large);
+  max-width: 1285px;
+
+  button {
+    margin: 0px;
+  }
 }
 .Filters {
   display: flex;
@@ -21,4 +26,20 @@ form {
 .radio {
   display: flex;
   gap: var(--layout-gap-vertical);
+}
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-padding-small-vertical);
+}
+input[type="radio"] {
+  appearance: none;
+  border-radius: var(--border-radius-large);
+  width: var(--layout-padding-default-vertical);
+  height: var(--layout-padding-default-vertical);
+  border: 1.5px solid var(--color-primary-0);
+}
+input:checked {
+  background-color: var(--color-primary-0);
+  box-shadow: inset 0px 0px 0px 2px var(--color-primary-900-50);
 }

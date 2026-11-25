@@ -1,0 +1,28 @@
+nav {
+  width: fit-content;
+  align-items: center;
+  background-color: var(--color-primary-900-50);
+  padding: var(--padding-mini);
+  border-radius: var(--border-radius-nav);
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+  }
+}
+
+.navitem {
+  display: block;
+  padding: var(--layout-padding-default-vertical) var(--border-radius-large);
+  color: var(--color-primary-0);
+  border-radius: var(--border-radius-large);
+
+  &.active {
+    background-color: var(--color-primary-0);
+    color: var(--color-primary-900);
+  }
+}
+.navitem:hover {
+  background-color: var(--color-primary-0-10);
+}

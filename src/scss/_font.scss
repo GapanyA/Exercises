@@ -50,7 +50,7 @@
   min-width: fit-content;
 }
 .body1-regular,
-a {
+.navitem {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);
@@ -85,7 +85,8 @@ label {
   font-size: var(--font-size-5);
   min-width: fit-content;
 }
-.body2-regular-underlined {
+.body2-regular-underlined,
+a {
   font-family: var(--font-family-base);
   font-optical-sizing: var(--font-optical-sizing);
   font-weight: var(--font-weight-regular);

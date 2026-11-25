@@ -17,12 +17,13 @@ nav {
   padding: var(--layout-padding-default-vertical) var(--border-radius-large);
   color: var(--color-primary-0);
   border-radius: var(--border-radius-large);
-
-  &.active {
-    background-color: var(--color-primary-0);
-    color: var(--color-primary-900);
-  }
 }
 .navitem:hover {
   background-color: var(--color-primary-0-10);
+  color: var(--color-primary-0);
+}
+.active {
+  background-color: var(--color-primary-0);
+  color: var(--color-primary-900);
+  pointer-events: none;
 }
